@@ -1,10 +1,5 @@
 [
     {
-        "username": "AAbro",
-        "password": "46f0a681258c2e50957ff79be2b8bfcee68ffb41374b5cf591863e3cfee884ad",
-        "userId": 1
-    },
-    {
         "username": "AAbror",
         "password": "46f0a681258c2e50957ff79be2b8bfcee68ffb41374b5cf591863e3cfee884ad",
         "userId": 2,
@@ -57,5 +52,17 @@
         "password": "46f0a681258c2e50957ff79be2b8bfcee68ffb41374b5cf591863e3cfee884ad",
         "userId": 10,
         "avatar": "1649247577763-526041176.jpg"
+    },
+    {
+        "username": "Abror",
+        "password": "46f0a681258c2e50957ff79be2b8bfcee68ffb41374b5cf591863e3cfee884ad",
+        "userId": 11,
+        "avatar": "1649292013956-780690183.png"
+    },
+    {
+        "username": "AbrorAlisherov",
+        "password": "5d0ade7df51d5d83db29ed57f3d28f8943759996bcbae50a45ab9f0ecbe982c8",
+        "userId": 12,
+        "avatar": "1649307701441-448998126.png"
     }
 ]

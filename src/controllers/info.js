@@ -9,11 +9,11 @@ function info(req,res,next){
             delete el.password
             return el
         })
+
         res.json({
             ok:true,
             message:"Ok",
-            users,
-            videos
+            users
         })
     } catch (e) {
         next(new InternalServerError(e.message))

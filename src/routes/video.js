@@ -33,7 +33,10 @@ const videoUpload = multer({
 })
 
 router.put("/video",checkToken,controller.PUT)
+router.get("/video/:fileName",controller.GET)
+router.get("/search",controller.SEARCH)
+
 router.post("/video",checkToken,videoUpload.single("video"),controller.POST)
 router.delete("/video",checkToken,controller.DELETE)
-
+router.get("/myvideos",checkToken,controller.MYVIDEOS)
 module.exports = router

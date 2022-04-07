@@ -21,3 +21,5 @@
 1649239024338  POST  /video  "Internal Server Error: Cannot read properties of undefined (reading 'trim')"
 1649239100650  POST  /video  "Internal Server Error: Cannot read properties of undefined (reading 'length')"
 1649242664848  DELETE  /video  "Internal Server Error: ENOENT: no such file or directory, unlink '/home/abror/Projects/Exam/files/1649239674143-570060471.mp4'"
+1649292726458  POST  /video  "Internal Server Error: Cannot read properties of undefined (reading 'filename')"
+1649297565874  GET  /info  "Internal Server Error: el.Created.toLocaleDateString is not a function"
