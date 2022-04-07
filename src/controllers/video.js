@@ -42,7 +42,7 @@ function MYVIDEOS(req,res,next){
         let videos = req.readFile("videos")
 
         videos = videos.filter(video => {
-            return video.userId === user
+            return video.userId === req.userId
         })
         res.json({
             ok:true,
@@ -51,7 +51,7 @@ function MYVIDEOS(req,res,next){
         })
     }
     catch (e){
-        return next(new InternalServerError(e.message))
+        return next(new AuthorizationError(400,e.message))
     }
 }
 
